@@ -1,0 +1,40 @@
+.header img {
+    width: 450px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3 {
+    padding-bottom: 1rem;
+}
+
+.content p {
+    text-align: left;
+}
+
+.content h2 {
+    padding: 2rem 0;
+}
+
+.table-atendimento {
+    width: 660px;
+}
+   
+.header-table {
+    background-color: #008060;
+    color: #ffffff;
+    border: 0;
+}
+
+td, th {
+    border: 1px solid #eceaea;
+    padding: 8px;
+}
+
+td {
+    background-color: #fafafa;
+}

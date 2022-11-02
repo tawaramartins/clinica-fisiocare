@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.menu-logo {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.menu {
+    padding: 1.5rem;
+    box-shadow: 0px 1px 8px #dddddd;
+}
+
+.menu ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu ul a {
+    color: #008060;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu ul a:hover {
+    color: #004c3f;
+    border-bottom: 2px solid #0a6826;
+}
+
+/** MENU MOBILE **/
+.menu-mobile {
+    display: none;
+}
+
+/**BUTTONn AGENDAR**/
+.btn-agendar {
+    background-color: #008060;
+    border: 0;
+    color: #ffffff;
+    padding: 1rem;
+    width: 100px;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* CONTENT */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header {
+    margin: 5rem;
+    display: flex;
+}
+
+.title {
+    display: block;
+    width: 360px;
+    margin: 1rem;
+}
+
+.title h1 {
+    font-size: 1.7rem;
+    color: #212326;
+}
+
+.title p {
+    margin-top: 1rem;
+    color: #6b7177;
+
+}
+
+
+/** CONTENT **/
+.content {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    padding: 10rem 0;
+    gap: 3%;
+}
+
+.content p {
+    margin: auto;
+    text-align: center;
+    color: #212326;
+}
+
+/** FOOTER**/
+.footer {
+    background-color: #004c3f;
+    padding: 10vh;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    list-style: none;
+
+}
+
+.footer li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 4.6rem;
+    color: #6c7376;
+}
+
+
+
+/****** MEDIA QUERIES *********/
+
+@media (min-width: 400px) and (max-width: 800px) {
+    ul li a {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+        cursor: pointer;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem 0;
+        padding-top: 2rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 360px;
+    }
+
+    .table-atendimento {
+        margin: auto;
+    }
+
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 820px) {
+    .title {
+        margin: auto;
+    }
+
+    .header img {
+        margin: auto;
+    }
+}

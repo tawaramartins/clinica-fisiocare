@@ -1,0 +1,62 @@
+.header img {
+    margin: auto;
+}
+
+.main {
+    margin: 5rem;
+}
+
+.contato-phone {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.contato-wpp {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    padding-top: 1rem;
+}
+
+input {
+    height: 35px;
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+.btn-form {
+    padding-top: 1rem;
+}
+
+.btn-form input[type=reset] {
+    width: 90px;
+    background-color: #fc4e4e;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.btn-form input[type=button] {
+    width: 90px;
+    background-color: #008060;
+    color: #ffffff;
+    cursor: pointer;
+
+}
